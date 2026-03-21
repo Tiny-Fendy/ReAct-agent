@@ -1,0 +1,25 @@
+{
+  "name": "react-agent-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A local ReAct agent implementation",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm -r run dev",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "clean": "pnpm -r run clean && rm -rf node_modules"
+  },
+  "keywords": [
+    "react",
+    "agent",
+    "ai",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
