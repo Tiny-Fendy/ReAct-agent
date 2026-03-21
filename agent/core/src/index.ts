@@ -5,4 +5,8 @@
 
 export const version = '0.0.1';
 
-// TODO: Implement ReAct agent core functionality
+// LLM Client
+export { LLMClient } from './llm';
+
+// Types
+export type { LLMConfig, EnvConfig } from './types';
