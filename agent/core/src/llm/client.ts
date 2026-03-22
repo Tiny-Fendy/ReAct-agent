@@ -10,7 +10,7 @@ export class LLMClient {
 
   constructor(config?: LLMConfig) {
     this.config = this.loadConfig(config);
-    
+
     this.client = new OpenAI({
       baseURL: this.config.baseUrl,
       apiKey: this.config.apiKey,
@@ -61,7 +61,6 @@ export class LLMClient {
       model: this.config.modelName,
       messages,
       temperature: this.config.temperature,
-      max_tokens: this.config.maxTokens,
     });
 
     return response;
